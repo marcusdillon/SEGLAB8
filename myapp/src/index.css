@@ -1,0 +1,134 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+
+.myNavBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(16, 37, 44);
+  font-family:  'Courier New', Courier, monospace;
+  font-size: 25px;
+  margin-top: 30px;
+  border: solid;
+  color: white; 
+ 
+}
+
+
+li {
+  float: left;
+  list-style-type: none
+  
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #04AA6D;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.navHeader {
+  background-color: rgb(16, 37, 44);
+  color:azure;
+  
+}
+
+.mylogo {
+  margin-left: 30px;
+}
+
+.banner {
+  margin-top: 35px;
+  text-align: center;
+  height: auto;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:  'Courier New', Courier, monospace;
+  margin-right: 25%;
+}
+
+.myFooter {
+  margin-top: 20px;
+  background-color: rgb(16, 37, 44);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
+  
+}
+.news {
+  font-family:  'Courier New', Courier, monospace;
+}
+.navNews {
+  margin-top: 10px;
+  background-color: rgb(16, 37, 44);
+  color: white;
+  margin-left: 19px;
+  
+}
+.newsHeader {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family:  'Courier New', Courier, monospace;
+  margin-top: 20px;
+  border-left:solid;
+  border-left-width:thick;
+  margin-left: 6px;
+}
+* {
+  background-color: rgb(16, 37, 44);
+  font-family:  'Courier New', Courier, monospace
+}
+
+.resourcesHeader {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family:  'Courier New', Courier, monospace;
+  margin-top: 20px;
+  border-left:solid;
+  border-left-width:thick;
+  margin-left: 25px;
+}
+
+.appointmentHeader {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family:  'Courier New', Courier, monospace;
+  margin-top: 20px;
+  border-left:solid;
+  border-left-width:thick;
+  margin-left: 25px;
+}
+
+.portfolioHeader {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family:  'Courier New', Courier, monospace;
+  margin-top: 20px;
+  border-left:solid;
+  border-left-width:thick;
+  margin-left: 25px;
+}
