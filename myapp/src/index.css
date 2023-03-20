@@ -1,9 +1,35 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  overflow-y: scroll;
 }
 
+
+.wholeBody {
+  margin-bottom: 150px;
+}
+
+.appointment {
+  margin-left: 75px;
+}
+
+input, label, option, select, button, textarea {
+  font-family:  'Courier New', Courier, monospace;
+  font-size: 25px;
+  margin-top: 30px;
+  color: white; 
+}
+
+h2 {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(16, 37, 44);
+  font-family:  'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding-top: 50px;
+  color: white; 
+ 
+}
 
 .myNavBar {
   list-style-type: none;
