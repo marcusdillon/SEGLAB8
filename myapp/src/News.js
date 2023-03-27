@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import FinNews from './components/FinNews';
 
 class News extends Component {
     render () { 
@@ -8,7 +9,7 @@ class News extends Component {
                 <div class = "row" >
                         <div class="col-sm-12" >
                             <div class="newsHeader" >
-                                Financial News
+                                <FinNews />
                             </div>
                         </div>
                 </div>
