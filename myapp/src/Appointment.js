@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Book from './components/Book';
 
 class Appointment extends Component {
     render () { 
@@ -8,7 +9,7 @@ class Appointment extends Component {
                 <div class = "row" >
                         <div class="col-sm-12" >
                             <div class="appointmentHeader" >
-                                Book an Appointment
+                                <Book />
                             </div>
                         </div>
                 </div>
