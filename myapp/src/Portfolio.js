@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Port from './components/Port';
 
 class Portoflio extends Component {
     render () { 
@@ -8,7 +9,7 @@ class Portoflio extends Component {
                 <div class = "row" >
                         <div class="col-sm-12" >
                             <div class="portfolioHeader" >
-                                Portoflio
+                                <Port />
                             </div>
                         </div>
                 </div>
