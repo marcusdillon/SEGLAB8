@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import InvResources from './components/InvResources';
 
 class InvestingResources extends Component {
     render () { 
@@ -8,7 +9,7 @@ class InvestingResources extends Component {
                 <div class = "row" >
                         <div class="col-sm-12" >
                             <div class="resourcesHeader" >
-                                Investing Resources
+                                <InvResources />
                             </div>
                         </div>
                 </div>
