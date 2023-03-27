@@ -1,6 +1,4 @@
 
-    
-
 import React, {Component, useState } from 'react';
 import News from './News';
 import Banner from './Banner';
